@@ -137,14 +137,14 @@ button {
         font-size: 1.3em;
     }
     p {
-        width: 300px;
+        width: 295px;
         font-size: 0.8em;
         margin: 0.03em auto;
         padding: 0.03em;
         box-sizing: border-box;  
     }
     form {
-        width: 300px;
+        width: 295px;
         box-sizing: border-box;
     }
     label, legend, select {
