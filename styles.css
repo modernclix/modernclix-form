@@ -116,6 +116,7 @@ button {
   border-radius: 0.5em;
   width: 80%;
   height: auto;
+  cursor: pointer;
 }
 
 /* animacion del p */
