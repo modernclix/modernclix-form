@@ -6,6 +6,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   color: aliceblue;
+  box-sizing: border-box;
 }
 
 .title-and-subtitle {
@@ -130,4 +131,26 @@ button {
     }
   }
       
-  
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.2em;
+    }
+    p {
+        width: 230px;
+        font-size: 0.7em;
+        margin: 0.03em auto;
+        padding: 0.03em;
+        box-sizing: border-box;  
+    }
+    form {
+        width: 220px;
+        box-sizing: border-box;
+    }
+    label, legend, select {
+        font-size: 0.8em;
+    }
+    .checkbox-container label {
+        width: 125px;
+        font-size: 0.7em;
+    }
+}
