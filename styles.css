@@ -137,21 +137,21 @@ button {
         font-size: 1.3em;
     }
     p {
-        width: 330px;
+        width: 300px;
         font-size: 0.8em;
         margin: 0.03em auto;
         padding: 0.03em;
         box-sizing: border-box;  
     }
     form {
-        width: 330px;
+        width: 300px;
         box-sizing: border-box;
     }
     label, legend, select {
         font-size: 0.9em;
     }
     .checkbox-container label {
-        width: 250px;
+        width: 210px;
         font-size: 0.8em;
     }
 }
