@@ -1,0 +1,133 @@
+body {
+  font-family: "Architects Daughter", cursive;
+  font-family: "Quicksand", sans-serif;
+  background-image: url(https://images.pexels.com/photos/1921326/pexels-photo-1921326.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: aliceblue;
+}
+
+.title-and-subtitle {
+  border: none;
+  text-align: center;
+}
+h1 {
+  margin: 1em auto 0.2em auto;
+  font-size: 2.5em;
+}
+
+p {
+  font-style: italic;
+  margin: 0.2em auto;
+  padding: 0.5em;
+  animation: titilar 2s infinite;
+  font-size: 1em;
+  background-color: rgba(127, 127, 127, 0.6);
+  border-radius: 0.5em;
+  width: fit-content;
+  }
+
+form {
+  background-color: rgba(0, 127, 127, 0.97);
+  border-radius: 10px;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  margin: 0 auto;
+}
+
+label {
+  margin: 0.5em 0.2em;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2em;
+}
+
+input,
+select,
+textarea {
+  font-family: "Architects Daughter", cursive;
+  font-family: "Quicksand", sans-serif;
+  height: 2.2em;
+  padding: 0.5em;
+  margin-top: 0.5em;
+  background-color: aliceblue;
+  border-style: none;
+  border-radius: 0.2em;
+}
+
+select {
+  margin-bottom: 2em;
+}
+
+input[type="radio"] {
+  font-size: 1em;
+  margin-bottom: 0.45em;
+}
+
+legend {
+  font-size: 1.5em;
+  margin-top: 0.7em;
+  margin-bottom: 0.5em;
+}
+
+.radio-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  vertical-align: base;
+}
+
+input[type="checkbox"] {
+  font-size: 0.5em;
+  margin-bottom: 0.7em;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.checkbox-container label {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 0.9em;
+}
+
+label[for="comments"] {
+  margin: 0.5em 0.1em;
+}
+textarea {
+  width: auto;
+  height: auto;
+  margin: 0.5em 0.2em 0.5em 0.2em;
+}
+
+button {
+  background-color: hsla(180, 69%, 38%, 1);
+  font-family: "Architects Daughter", cursive;
+  font-family: "Quicksand", sans-serif;
+  color: aliceblue;
+  font-weight: bold;
+  font-size: 1.2em;
+  padding: 0.3em;
+  margin: 1em auto;
+  border-radius: 0.5em;
+  width: 80%;
+  height: auto;
+}
+
+/* animacion del p */
+@keyframes titilar {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+      
+  

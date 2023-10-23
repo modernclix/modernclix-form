@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Quicksand:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Modern Clix Survey Form</title>
+  </head>
+  <body>
+    <div class="title-and-subtitle">
+      <h1 id="title">Modern Clix Survey Form</h1>
+      <p id="description">
+        Thank you for taking the time to read our blogposts!
+      </p>
+    </div>
+    <form
+      method="post"
+      action="https://register-demo.freecodecamp.org"
+      id="survey-form"
+    >
+      <label id="name-label" for="name"
+        >Name<input id="name" type="text" placeholder="John Wayne" required
+      /></label>
+      <label id="email-label" for="email"
+        >Email<input
+          id="email"
+          type="email"
+          placeholder="johnwayne@mail.com"
+          required
+      /></label>
+      <label id="number-label" for="number"
+        >Age (optional)<input
+          id="number"
+          type="number"
+          min="1"
+          max="200"
+          placeholder="35"
+      /></label>
+      <label for="dropdown"
+        >What is your favorite area of ​​web development?
+        <select id="dropdown">
+          <option value="">(select one)</option>
+          <option value="1">Frontend</option>
+          <option value="2">Backend</option>
+          <option value="3">UX/UI</option>
+          <option value="4">Full Stack</option>
+        </select>
+      </label>
+      <legend>Current job situation in web development</legend>
+      <div class="radio-container">
+        <input
+          value="web-dev-job"
+          id="web-dev-job"
+          type="radio"
+          name="job-situation"
+          checked
+        /><label class="radio-label" for="web-dev-job"
+          >I've got a job in Web Development</label
+        >
+      </div>
+      <div class="radio-container">
+        <input
+          value="another-job"
+          id="another-job"
+          type="radio"
+          name="job-situation"
+        /><label class="radio-label" for="another-job"
+          >I've got another kind of job</label
+        >
+      </div>
+      <div class="radio-container">
+        <input
+          value="no-job"
+          id="no-job"
+          type="radio"
+          name="job-situation"
+        /><label class="radio-label" for="no-job"
+          >I have no job currently</label
+        >
+      </div>
+      <legend>
+        What topics would you like us to cover in future blogposts? (Check all
+        that apply)
+      </legend>
+      <div class="checkbox-container">
+        <input type="checkbox" id="flexbox" value="flexbox" />
+        <label for="flexbox">CSS Flexbox</label>
+      </div>
+      <div class="checkbox-container">
+        <input type="checkbox" id="grid" value="grid" />
+        <label for="grid">CSS Grid</label>
+      </div>
+      <div class="checkbox-container">
+        <input type="checkbox" id="animations" value="animations" />
+        <label for="animations">CSS Animations</label>
+      </div>
+      <div class="checkbox-container">
+        <input type="checkbox" id="accesibility" value="accesibility" />
+        <label for="accesibility">Accesibility</label>
+      </div>
+      <div class="checkbox-container">
+        <input type="checkbox" id="javascript" value="javascript" />
+        <label for="javascript"
+          >JavaScript Algorithms and Data Structures</label
+        >
+      </div>
+      <div class="checkbox-container">
+        <input type="checkbox" id="libraries" value="libraries" />
+        <label for="libraries">Front End Development Libraries</label>
+      </div>
+      <div class="checkbox-container">
+        <input type="checkbox" id="backend-dev" value="backend-dev" /><label
+          for="backend-dev"
+          >Backend Development</label
+        >
+      </div>
+      <label for="comments">Comments and suggestions:</label>
+      <textarea id="comments" rows="5" cols="30"></textarea>
+      <button type="submit" id="submit">Submit</button>
+    </form>
+  </body>
+</html>
