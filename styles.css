@@ -36,7 +36,7 @@ form {
   display: flex;
   flex-direction: column;
   width: 360px;
-  margin: 0 auto;
+  margin: 1em auto;
 }
 
 label {
@@ -172,6 +172,7 @@ img {
     form {
         width: 290px;
         box-sizing: border-box;
+        margin-top: 0.5em auto;
     }
     label, legend, select {
         font-size: 0.9em;
