@@ -131,7 +131,33 @@ button {
       opacity: 1;
     }
   }
-      
+footer p {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    transition: none;
+    animation: none;
+    margin: 0.73em auto;
+    font-size: 0.73em;
+    padding: 0.2em;
+  }
+
+img {
+    width: 2em;
+    height: 2em;
+    margin: 0.2em 0.4em;
+  }
+
+  footer a {
+    text-decoration: none;
+  }
+
+  footer a:visited {
+    color: aliceblue;
+  }
+
+
+
 @media (max-width: 600px) {
     h1 {
         font-size: 1.3em;
